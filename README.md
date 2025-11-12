@@ -9,10 +9,11 @@
 
 ## 🏦 Deskripsi Proyek
 
-**PAYVERI** adalah sistem verifikasi pengguna yang dikembangkan untuk perusahaan fintech bernama **PayVeri**.  
-Tujuan utama proyek ini adalah untuk **menghasilkan dan memvalidasi token sementara** yang digunakan dalam proses **login dan verifikasi pembayaran**.
+A fintech startup called "PayVeri" is building a secure user verification system that generates and validates temporary tokens for login and payment verification.
+ To ensure token confidentiality, the company wants to encrypt each token before it is sent to users.
+As part of the security development team, you are assigned to design and implement Affine Cipher encryption and decryption to protect the verification tokens.
+Your system must handle both encryption (for sending tokens) and decryption (for verifying them).
 
-Untuk menjaga keamanan data pengguna, setiap token akan **dienkripsi menggunakan metode Affine Cipher** sebelum dikirimkan ke pengguna, dan **didekripsi kembali** saat proses verifikasi berlangsung.
 
 ---
 
